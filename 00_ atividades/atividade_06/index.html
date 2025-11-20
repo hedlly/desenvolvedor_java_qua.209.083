@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario de Cadastro</h1>
+    <hr>
+
+    <!--Formulario -->
+    <form>
+       <label>Nome completo:</label><br>
+    <input type="text" ><br><br>
+    <label>Data de nascimento:</label><br>
+    <input type="date" name="data_nascimento" required><br><br>
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br><br>
+    <label>CPF:</label><br>
+    <input type="text" name="cpf" maxlength="14" required><br><br>
+    <label>Telefone:</label><br>
+    <input type="tel" name="telefone" required><br><br>
+    <label>Gênero:</label><br>
+    <select name="genero">
+        <option value="">Selecione</option>
+        <option value="masculino">Masculino</option>
+        <option value="feminino">Feminino</option>
+        <option value="outro">Outro</option>
+        <option value="nao_informar">Prefiro não informar</option>
+    </select><br><br>
+    <label>Altura (em metros):</label><br>
+    <input type="number" name="altura" step="0.01" placeholder="1.75"><br><br>
+
+    <label>Escolaridade:</label><br>
+    <select name="escolaridade"><br><br>
+        <option value="">Selecione</option>
+        <option value="fundamental">Ensino Fundamental</option>
+        <option value="medio">Ensino Médio</option>
+        <option value="superior">Ensino Superior</option>
+        <option value="pos">Pós-graduação</option>
+        <option value="mestrado">Mestrado</option>
+        <option value="doutorado">Doutorado</option>
+    </select><br><br>
+
+    <label>Profissão:</label><br>
+    <input type="text" name="profissao"><br><br>
+    <label>Salário:</label><br>
+    <input type="number" name="salario" step="0.01"><br><br>
+    <h3>Endereço</h3>
+
+    <label>CEP:</label><br>
+    <input type="text" name="cep" required><br><br>
+
+    <label>UF:</label><br>
+    <input type="text" name="uf" maxlength="2"><br>
+
+    <label>Cidade:</label><br>
+    <input type="text" name="cidade"><br><br>
+
+    <label>Bairro:</label><br>
+    <input type="text" name="bairro"><br><br>
+
+    <label>Logradouro:</label><br>
+    <input type="text" name="logradouro"><br><br>
+
+    <label>Complemento:</label><br>
+    <input type="text" name="complemento"><br><br>
+
+    <label>Número:</label><br>
+    <input type="text" name="numero"><br><br>
+
+    <button type="submit">Enviar</button><br>
+    <br><br>
+         <!--botao reset-->
+        <button type="reset">Limpar</button>
+
+
+        
+
+
+
+    </form>
+</body>
+</html>
